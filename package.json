@@ -2,10 +2,15 @@
   "name": "backend",
   "version": "1.0.0",
   "description": "learningn",
+  "type": "module",
   "main": "index.js",
   "scripts": {
-    "test": "start"
+    "test": "start",
+    "dev":"nodemon src/index.js"
   },
   "author": "karn",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
 }
