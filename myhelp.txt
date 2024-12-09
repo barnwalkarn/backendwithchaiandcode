@@ -1,1 +1,11 @@
-#here i added txt file where i will put all the necessary details 
+Project Overview:
+
+#This project is designed to facilitate modularized data access, with different levels of user roles and permissions. The system consists of three main user types: Superadmin, Admin, and User, each with distinct responsibilities and access controls.
+
+#Superadmin Access: The Superadmin has overarching control and management capabilities across the entire system. They possess the ability to manage and oversee the actions and data of all other Superadmins.
+
+#Admin Access: Admin users have access to manage their own teams. They can oversee and control the activities of users within their respective teams. Admins are granted specific permissions to ensure the smooth operation of their teams, including data access and modification within their team structure.
+
+#User Access: Users are able to upload and manage their personal data. Each user can interact with the system independently, with their data being visible and accessible to other authorized users based on predefined access permissions.
+
+#Team Structure: The system is designed to include a team-based structure under the Admin's control. Admins have the authority to manage user access within their designated teams, ensuring proper division and control of data
